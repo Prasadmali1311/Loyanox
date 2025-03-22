@@ -1,0 +1,24 @@
+main{
+    padding: 3.5rem 25rem;
+}
+
+.t1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.t1 div{
+    padding: 7px;
+    border: 1px solid black;
+}
+
+.t2{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.t2 div{
+    padding: 7px;
+    border: 1px solid black;
+}
